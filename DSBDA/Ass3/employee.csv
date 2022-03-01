@@ -1,0 +1,11 @@
+EmpId,EmpName,EmpGender,EmpSalary,EmpDept
+1,Manish,Male,20000,Development
+2,Sangita,Female,23000,Finance
+3,Abdul,Male,20500,Development
+4,Namita,Female,25000,Development
+5,Smriti,Female,15000,Sales
+6,Deepika,Female,16000,Finance
+7,Sanket,Male,15000,Marketing
+8,Jassi,Male,14000,Sales
+9,Ronita,Female,20000,Finance
+10,Shobha,Female,17000,Marketing

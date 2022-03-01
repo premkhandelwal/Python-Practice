@@ -1,0 +1,6 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,A,Male,22,1,0,A/5 21171,199,NaN,S
+2,1,1,B,Female,27,1,0,PC 17599,299,C85,C
+3,1,3,C,Male,19,0,0,STON/O2. 3101282,399,NaN,S
+4,1,1,D,Female,45,1,0,113803,499,C123,S
+5,0,3,E,Male,54,0,0,373450,599,NaN,S

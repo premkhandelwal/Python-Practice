@@ -1,0 +1,6 @@
+print(df)
+print(data_csv.dtypes["MinTemp"])
+print(data_csv.describe())
+print(data_csv.notnull().sum())
+print(data_csv.isnull().sum())
+print(df[df.MinTemp>=15])
