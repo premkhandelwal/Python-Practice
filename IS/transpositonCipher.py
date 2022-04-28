@@ -13,10 +13,10 @@ def encrypt(message, key):
     keyLen = len(str(key))
     # rowCount = len(message) % 
     rowCount = 4
-    transmatrix = [["" for _ in range(keyLen)]  for _ in range(rowCount)]
     print(keyLen)
     print(rowCount)
 
+    transmatrix = [["" for _ in range(keyLen)]  for _ in range(rowCount)]
     messageInd = 0 
     print(len(message))
     for i in range(rowCount):
