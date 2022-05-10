@@ -27,7 +27,7 @@ def astar(start,goal):
 	while len(openSet)!=0:
 
 		current = findNodeWithLowestFScore(openSet)
-
+		print(current.name)
 		if current==goal:
 			return contruct_path(cameFrom, current)
 
@@ -47,10 +47,10 @@ def astar(start,goal):
 				openSet.add(neighbour)
 
 
-			tentative_gScore=current.g+graph[current.name][neighbour.name]
-			
+			tentative_gScore = current.g + graph[current.name][neighbour.name]
+			print("Current.g",current.name)
 #print(tentative_gScore)
-			if tentative_gScore>= neighbour.g:
+			if tentative_gScore >= neighbour.g:
 				continue
 
 			cameFrom[neighbour] = current
@@ -118,7 +118,7 @@ goalNode = d
 if __name__=="__main__":
 	
 	path = astar(startNode, goalNode)
-
+	print(path)
 	print("Path is : ", end="" )
 	for node in path[::-1]:
 		print(str(node.name) + "-->", end="")	

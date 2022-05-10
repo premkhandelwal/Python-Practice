@@ -4,7 +4,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 
 public class AES{
-    static String IV = "AAAAAAAAAAAAAAAA";
+    static String IV = "AAAA AAAA AAAA AAAA";
     static String plainText = "test text 123\u0000\u0000\u0000";
     static String encryptionKey = "0123456789abcdef";
     
@@ -13,7 +13,7 @@ public class AES{
             System.out.println("plain: "+ plainText);
             byte[] cipher = encrypt(plainText, encryptionKey);
             System.out.print("cipher: ");
-            for (var i = 0; i < cipher.length; i++) {
+            for (int i = 0; i < cipher.length; i++) {
                 System.out.print(new Integer(cipher[i]) + " ");
                 
             }
