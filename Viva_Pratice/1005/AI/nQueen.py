@@ -41,7 +41,7 @@ def nQueen(r, n):
             arr[r][col] = 0
 
 
-n1 = 4
+n1 = 8
 arr = [[0 for x in range(n1)] for y in range(n1)]
 nQueen(0, n1)
 print(arr)
